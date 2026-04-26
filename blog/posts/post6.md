@@ -1,32 +1,13 @@
 ---
 title: "Introduction to JavaScript Async/Await"
 date: 2025-03-15
-author: Kurumi
+author: Lin_tsen
 excerpt: "Master asynchronous JavaScript programming with async/await syntax. Learn how to write clean, readable async code."
 tags: ["javascript", "tutorial", "async"]
 ---
 
-Asynchronous programming in JavaScript has evolved from callbacks to promises to async/await. The async/await syntax makes async code look and behave more like synchronous code.
+[文章內容待撰寫...]
 
-## Basics of async/await
+---
 
-```javascript
-async function fetchData() {
-    try {
-        const response = await fetch('/api/data');
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
-```
-
-## Key Points
-
-- async functions always return a Promise
-- await can only be used inside async functions
-- Use try-catch for error handling
-- Multiple async operations can run in parallel with Promise.all()
-
-Async/await makes your code cleaner and easier to read. Start using it today!
+This is a placeholder. Replace with your actual blog post content in Markdown format.

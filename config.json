@@ -1,54 +1,84 @@
 {
   "site": {
-    "title": "Kurumi's Personal Space",
-    "description": "A personal blog and wallpaper collection",
-    "author": "Kurumi",
-    "url": "https://kurumi.dev"
+    "title": "Lin_tsen's Place",
+    "description": "Personal website of Lin_tsen - Wallpaper Engineer & Greasyfork Plugin Developer",
+    "author": "Lin_tsen",
+    "url": "https://linchu.dpdns.org"
   },
   "author": {
-    "name": "Kurumi",
-    "tagline": "Code, Creativity, and Curiosity",
-    "introduction": "Hi, I'm Kurumi, a developer and tech enthusiast. I love exploring new technologies, building cool projects, and sharing my knowledge with the community.",
+    "name": "Lin_tsen",
+    "tagline": "I never sleep today, I sleep tomorrow.",
+    "introduction": "I'm Lin_tsen, a Wallpaper Engineer and Greasyfork Plugin Developer. I like making web plugins and wallpapers. Recently also researching AI, welcome to exchange and discuss. My main programming languages are role-playing, emotional blackmail, and leather whips.",
     "discord": {
-      "botName": "KurumiBot",
-      "inviteLink": "https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=268435456&scope=bot"
+      "botName": "粗音未來",
+      "inviteLink": "https://discord.com/oauth2/authorize?client_id=1025237449917599744&permissions=316659385780224&integration_type=0&scope=bot"
     }
   },
   "blog": {
     "postsPerPage": 5,
-    "defaultAuthor": "Kurumi"
+    "defaultAuthor": "Lin_tsen"
   },
   "wallpapers": {
     "steamWorkshopLinks": [
       {
-        "id": "2813927321",
-        "title": "Genshin Impact - Raiden Ei",
-        "description": "Beautiful Raiden Ei wallpaper from Genshin Impact",
-        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2813927321"
+        "id": "3490686587",
+        "title": "Chisato & Takina",
+        "description": " stylish wallpaper from Lycoris Recoil",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3490686587"
       },
       {
-        "id": "2822567845",
-        "title": "Zenless Zone Zero - Belle",
-        "description": "Stunning Belle wallpaper from Zenless Zone Zero",
-        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2822567845"
+        "id": "3380759254",
+        "title": "Ellen Joe full res",
+        "description": "High resolution Ellen Joe wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3380759254"
       },
       {
-        "id": "2798654321",
-        "title": "Honkai Impact 3rd - Seele",
-        "description": "Seele Vollerei wallpaper collection",
-        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2798654321"
+        "id": "3489657014",
+        "title": "Nurture Win 11",
+        "description": "Nurture themed Windows 11 wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3489657014"
       },
       {
-        "id": "2831456723",
-        "title": "Anime Scenery Collection",
-        "description": "Beautiful anime-style landscape wallpapers",
-        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2831456723"
+        "id": "3346360995",
+        "title": "Sleepee Frieren",
+        "description": "Frieren wallpaper with sleeping theme",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3346360995"
       },
       {
-        "id": "2809876543",
-        "title": "Cyberpunk City Lights",
-        "description": "Neon-lit cyberpunk city wallpapers",
-        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2809876543"
+        "id": "3209146338",
+        "title": "Fishing on lake",
+        "description": "Peaceful fishing scene wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3209146338"
+      },
+      {
+        "id": "3703645242",
+        "title": "I was once an animator",
+        "description": "Anime animator themed wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3703645242"
+      },
+      {
+        "id": "3295163812",
+        "title": "Laboratory",
+        "description": "Sci-fi laboratory wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3295163812"
+      },
+      {
+        "id": "3289796633",
+        "title": "EVA black",
+        "description": "EVA inspired dark wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3289796633"
+      },
+      {
+        "id": "3205894062",
+        "title": "「音」 (Sound)",
+        "description": "Music themed wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3205894062"
+      },
+      {
+        "id": "3295159039",
+        "title": "Studio cat girl",
+        "description": "Cute cat girl in studio wallpaper",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3295159039"
       }
     ]
   }
