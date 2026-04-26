@@ -193,7 +193,7 @@ async function generateBlogPosts(posts) {
             html = html.replace('{{#if tags}}', '').replace('{{/if}}', '');
             html = html.replace('{{#each tags}}<span style="color: var(--primary-color); margin-right: 0.5rem;">#{{this}}</span>{{/each}}', tagsHtml);
         } else {
-            html = html.replace('{{#if tags}}<br>Tags: {{#each tags}}<span style="color: var(--primary-color); margin-right: 0.5rem;">#{{this}}</span>{{/each}}{{/if}}', '');
+            html = html.replace('{{#if tags}}<br>標籤: {{#each tags}}<span style="color: var(--primary-color); margin-right: 0.5rem;">#{{this}}</span>{{/each}}{{/if}}', '');
         }
 
         const outputPath = path.join(OUTPUT_BLOG_DIR, `post${post.id}.html`);
@@ -211,9 +211,9 @@ function getPostTemplate() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}} - Lin_tsen's Place</title>
+    <title>{{title}} - Lin_tsen 的窩</title>
     <meta name="description" content="{{excerpt}}">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -221,9 +221,9 @@ function getPostTemplate() {
             <nav>
                 <div class="logo">Lin_tsen</div>
                 <ul class="nav-links" id="navLinks">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/blog.html" class="active">Blog</a></li>
-                    <li><a href="/wallpapers.html">Wallpapers</a></li>
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../blog.html" class="active">部落格</a></li>
+                    <li><a href="../wallpapers.html">桌布</a></li>
                 </ul>
                 <div class="menu-toggle" id="menuToggle">
                     <span></span>
@@ -236,13 +236,13 @@ function getPostTemplate() {
 
     <main class="container">
         <article class="blog-post">
-            <a href="/blog.html" class="back-link">← Back to Blog</a>
+            <a href="../blog.html" class="back-link">← 返回部落格</a>
 
             <header>
                 <h1>{{title}}</h1>
                 <div class="post-meta">
-                    Published on {{date}} by {{author}}
-                    {{#if tags}}<br>Tags: {{#each tags}}<span style="color: var(--primary-color); margin-right: 0.5rem;">#{{this}}</span>{{/each}}{{/if}}
+                    📅 {{date}} · ✍️ {{author}}
+                    {{#if tags}}<br>標籤: {{#each tags}}<span style="color: var(--primary-color); margin-right: 0.5rem;">#{{this}}</span>{{/each}}{{/if}}
                 </div>
             </header>
 
@@ -263,7 +263,7 @@ function getPostTemplate() {
         </div>
     </footer>
 
-    <script src="/js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>`;
 }
@@ -273,7 +273,7 @@ function getPostTemplate() {
  */
 function formatDate(dateStr) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateStr).toLocaleDateString('en-US', options);
+    return new Date(dateStr).toLocaleDateString('zh-TW', options);
 }
 
 // Run build

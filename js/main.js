@@ -52,7 +52,7 @@ async function loadWallpaperPreview() {
             `).join('');
         }
     } catch (error) {
-        console.error('Failed to load wallpaper preview:', error);
+        console.error('無法載入桌布預覽:', error);
     }
 }
 

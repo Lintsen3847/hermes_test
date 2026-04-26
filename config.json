@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Lin_tsen's Place",
-    "description": "Personal website of Lin_tsen - Wallpaper Engineer & Greasyfork Plugin Developer",
+    "title": "Lin_tsen 的窩",
+    "description": "Lin_tsen 的個人網站 - 桌布工程師 & 腳本開發者",
     "author": "Lin_tsen",
     "url": "https://linchu.dpdns.org"
   },
   "author": {
     "name": "Lin_tsen",
-    "tagline": "I never sleep today, I sleep tomorrow.",
-    "introduction": "I'm Lin_tsen, a Wallpaper Engineer and Greasyfork Plugin Developer. I like making web plugins and wallpapers. Recently also researching AI, welcome to exchange and discuss. My main programming languages are role-playing, emotional blackmail, and leather whips.",
+    "tagline": "我明天才睡覺，今天不睡。",
+    "introduction": "我是 Lin_tsen，一個桌布工程師與 Greasyfork 插件開發者。我喜歡製作網頁插件和桌布。最近也在研究 AI，歡迎交流討論。我的主要程式語言是角色扮演、情緒勒索，以及皮製鞭子。",
     "discord": {
       "botName": "粗音未來",
       "inviteLink": "https://discord.com/oauth2/authorize?client_id=1025237449917599744&permissions=316659385780224&integration_type=0&scope=bot"

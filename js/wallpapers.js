@@ -30,7 +30,7 @@ async function loadWallpapers() {
             `).join('');
         }
     } catch (error) {
-        console.error('Failed to load wallpapers:', error);
+        console.error('無法載入桌布:', error);
         const grid = document.getElementById('wallpaperGrid');
         if (grid) {
             grid.innerHTML = '<p class="text-center">Failed to load wallpapers. Please try again later.</p>';

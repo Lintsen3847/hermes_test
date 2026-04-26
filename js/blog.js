@@ -3,7 +3,7 @@
  * Works with pre-built static site
  */
 
-const CONFIG_URL = '/config.json';
+const CONFIG_URL = './config.json';
 
 // State
 let allPosts = window.allPosts || [];
@@ -36,7 +36,7 @@ async function loadPostsFromJSON() {
             window.allPosts = allPosts;
         }
     } catch (error) {
-        console.error('Failed to load posts JSON:', error);
+        console.error('無法載入文章列表:', error);
         allPosts = [];
     }
 }
@@ -49,7 +49,7 @@ async function loadConfig() {
         postsPerPage = config.blog?.postsPerPage || 5;
         window.postsPerPage = postsPerPage;
     } catch (error) {
-        console.error('Failed to load config:', error);
+        console.error('無法載入設定:', error);
     }
 }
 
@@ -80,19 +80,19 @@ function renderBlog() {
     // Only render if not pre-rendered (first page already in HTML)
     if (!hasPreRendered || currentPage > 1) {
         if (postsToShow.length === 0) {
-            blogList.innerHTML = '<p>No blog posts yet. Check back soon!</p>';
+            blogList.innerHTML = '<p>還沒有文章，稍後再來看看！</p>';
         } else {
             blogList.innerHTML = postsToShow.map(post => `
                 <article class="blog-card">
-                    <h3><a href="/blog/post${post.id}.html">${post.title}</a></h3>
+                    <h3><a href="./blog/post${post.id}.html">${post.title}</a></h3>
                     <div class="meta">
-                        Published on ${formatDate(post.date)} by ${post.author}
+                        📅 ${formatDate(post.date)} · ✍️ ${post.author}
                     </div>
                     <p class="excerpt">${post.excerpt}</p>
                     <div class="tags">
                         ${post.tags.map(tag => `<span style="color: var(--primary-color); font-size: 0.875rem; margin-right: 0.5rem;">#${tag}</span>`).join('')}
                     </div>
-                    <a href="/blog/post${post.id}.html" class="read-more">Read more →</a>
+                    <a href="./blog/post${post.id}.html" class="read-more">閱讀更多 →</a>
                 </article>
             `).join('');
         }
@@ -114,10 +114,10 @@ function renderPagination(totalPages) {
 
     let html = '';
 
-    // Previous button
+    // 上一頁按鈕
     html += `
         <button ${currentPage === 1 ? 'disabled' : ''} onclick="changePage(${currentPage - 1})">
-            ← Previous
+            ← 上一頁
         </button>
     `;
 
@@ -138,7 +138,7 @@ function renderPagination(totalPages) {
     // Next button
     html += `
         <button ${currentPage === totalPages ? 'disabled' : ''} onclick="changePage(${currentPage + 1})">
-            Next →
+            下一頁 →
         </button>
     `;
 
@@ -177,5 +177,5 @@ function initMobileMenu() {
 // Format date helper
 function formatDate(dateStr) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateStr).toLocaleDateString('en-US', options);
+    return new Date(dateStr).toLocaleDateString('zh-TW', options);
 }
