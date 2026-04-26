@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Load posts from JSON file
 async function loadPostsFromJSON() {
     try {
-        const response = await fetch('/blog/posts.json');
+        const response = await fetch('./blog/posts.json');
         if (response.ok) {
             allPosts = await response.json();
             window.allPosts = allPosts;
