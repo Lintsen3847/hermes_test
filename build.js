@@ -1,5 +1,5 @@
 /**
- * Build Script for Kurumi's Website
+ * Build Script for Lin_tsen's Website
  * Converts Markdown blog posts to static HTML pages
  * Generates posts.json for blog listing
  */
@@ -211,7 +211,7 @@ function getPostTemplate() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}} - Kurumi's Blog</title>
+    <title>{{title}} - Lin_tsen's Place</title>
     <meta name="description" content="{{excerpt}}">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -219,7 +219,7 @@ function getPostTemplate() {
     <header>
         <div class="container">
             <nav>
-                <div class="logo">Kurumi</div>
+                <div class="logo">Lin_tsen</div>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="/">Home</a></li>
                     <li><a href="/blog.html" class="active">Blog</a></li>
@@ -254,7 +254,7 @@ function getPostTemplate() {
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Kurumi. All rights reserved.</p>
+            <p>&copy; 2026 Lin_tsen. All rights reserved.</p>
             <ul class="social-links">
                 <li><a href="https://github.com/" title="GitHub">GitHub</a></li>
                 <li><a href="https://discord.com/" title="Discord">Discord</a></li>
