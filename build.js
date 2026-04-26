@@ -221,7 +221,7 @@ function getPostTemplate() {
             <nav>
                 <div class="logo">Lin_tsen</div>
                 <ul class="nav-links" id="navLinks">
-                    <li><a href="../">Home</a></li>
+                    <li><a href="../">首頁</a></li>
                     <li><a href="../blog.html" class="active">部落格</a></li>
                     <li><a href="../wallpapers.html">桌布</a></li>
                 </ul>
