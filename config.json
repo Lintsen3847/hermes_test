@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "Kurumi's Personal Space",
+    "description": "A personal blog and wallpaper collection",
+    "author": "Kurumi",
+    "url": "https://kurumi.dev"
+  },
+  "author": {
+    "name": "Kurumi",
+    "tagline": "Code, Creativity, and Curiosity",
+    "introduction": "Hi, I'm Kurumi, a developer and tech enthusiast. I love exploring new technologies, building cool projects, and sharing my knowledge with the community.",
+    "discord": {
+      "botName": "KurumiBot",
+      "inviteLink": "https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=268435456&scope=bot"
+    }
+  },
+  "blog": {
+    "postsPerPage": 5,
+    "defaultAuthor": "Kurumi"
+  },
+  "wallpapers": {
+    "steamWorkshopLinks": [
+      {
+        "id": "2813927321",
+        "title": "Genshin Impact - Raiden Ei",
+        "description": "Beautiful Raiden Ei wallpaper from Genshin Impact",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2813927321"
+      },
+      {
+        "id": "2822567845",
+        "title": "Zenless Zone Zero - Belle",
+        "description": "Stunning Belle wallpaper from Zenless Zone Zero",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2822567845"
+      },
+      {
+        "id": "2798654321",
+        "title": "Honkai Impact 3rd - Seele",
+        "description": "Seele Vollerei wallpaper collection",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2798654321"
+      },
+      {
+        "id": "2831456723",
+        "title": "Anime Scenery Collection",
+        "description": "Beautiful anime-style landscape wallpapers",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2831456723"
+      },
+      {
+        "id": "2809876543",
+        "title": "Cyberpunk City Lights",
+        "description": "Neon-lit cyberpunk city wallpapers",
+        "steamUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=2809876543"
+      }
+    ]
+  }
+}

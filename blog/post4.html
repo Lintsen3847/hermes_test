@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Modern CSS: Flexbox and Grid - Kurumi's Blog</title>
+    <meta name="description" content="A deep dive into modern CSS layout techniques that every developer should master. Flexbox and Grid explained with practical examples.">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Kurumi</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog.html" class="active">Blog</a></li>
+                    <li><a href="/wallpapers.html">Wallpapers</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="blog-post">
+            <a href="/blog.html" class="back-link">← Back to Blog</a>
+
+            <header>
+                <h1>Understanding Modern CSS: Flexbox and Grid</h1>
+                <div class="post-meta">
+                    Published on March 28, 2025 by Kurumi
+                    <br>Tags: <span style="color: var(--primary-color); margin-right: 0.5rem;">#css</span><span style="color: var(--primary-color); margin-right: 0.5rem;">#web-dev</span><span style="color: var(--primary-color); margin-right: 0.5rem;">#tutorial</span>
+                </div>
+            </header>
+
+            <div class="post-content">
+                <p>CSS layout has come a long way. Flexbox and Grid have revolutionized how we create web layouts, making complex designs simpler and more maintainable.</p>
+<h2>Flexbox: One-Dimensional Layout</h2>
+<p>Flexbox is perfect for distributing items along a single axis (row or column).</p>
+<pre><code class="language-css">.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+</code></pre>
+<h2>Grid: Two-Dimensional Layout</h2>
+<p>Grid excels at creating complex two-dimensional layouts with rows and columns.</p>
+<pre><code class="language-css">.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+</code></pre>
+<h2>When to Use Which?</h2>
+<ul>
+<li><strong>Flexbox:</strong> Component-level layout, navigation bars, card alignment</li>
+<li><strong>Grid:</strong> Page-level layout, complex grids, overlapping elements</li>
+</ul>
+<p>Master both, and you&#39;ll be able to create any layout with ease!</p>
+
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kurumi. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://github.com/" title="GitHub">GitHub</a></li>
+                <li><a href="https://discord.com/" title="Discord">Discord</a></li>
+                <li><a href="https://steamcommunity.com/" title="Steam">Steam</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript Async/Await - Kurumi's Blog</title>
+    <meta name="description" content="Master asynchronous JavaScript programming with async/await syntax. Learn how to write clean, readable async code.">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Kurumi</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog.html" class="active">Blog</a></li>
+                    <li><a href="/wallpapers.html">Wallpapers</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="blog-post">
+            <a href="/blog.html" class="back-link">← Back to Blog</a>
+
+            <header>
+                <h1>Introduction to JavaScript Async/Await</h1>
+                <div class="post-meta">
+                    Published on March 15, 2025 by Kurumi
+                    <br>Tags: <span style="color: var(--primary-color); margin-right: 0.5rem;">#javascript</span><span style="color: var(--primary-color); margin-right: 0.5rem;">#tutorial</span><span style="color: var(--primary-color); margin-right: 0.5rem;">#async</span>
+                </div>
+            </header>
+
+            <div class="post-content">
+                <p>Asynchronous programming in JavaScript has evolved from callbacks to promises to async/await. The async/await syntax makes async code look and behave more like synchronous code.</p>
+<h2>Basics of async/await</h2>
+<pre><code class="language-javascript">async function fetchData() {
+    try {
+        const response = await fetch(&#39;/api/data&#39;);
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error(&#39;Error:&#39;, error);
+    }
+}
+</code></pre>
+<h2>Key Points</h2>
+<ul>
+<li>async functions always return a Promise</li>
+<li>await can only be used inside async functions</li>
+<li>Use try-catch for error handling</li>
+<li>Multiple async operations can run in parallel with Promise.all()</li>
+</ul>
+<p>Async/await makes your code cleaner and easier to read. Start using it today!</p>
+
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kurumi. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://github.com/" title="GitHub">GitHub</a></li>
+                <li><a href="https://discord.com/" title="Discord">Discord</a></li>
+                <li><a href="https://steamcommunity.com/" title="Steam">Steam</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

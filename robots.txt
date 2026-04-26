@@ -1,0 +1,7 @@
+# robots.txt for Kurumi's Website
+# Allow all bots to crawl
+
+User-agent: *
+Allow: /
+
+Sitemap: https://kurumi.dev/sitemap.xml

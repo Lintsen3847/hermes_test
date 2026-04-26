@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Web Development in 2025",
+    "date": "2025-04-15",
+    "author": "Kurumi",
+    "excerpt": "A comprehensive guide to starting your web development journey with modern tools and frameworks. Learn HTML, CSS, JavaScript, and popular frameworks.",
+    "tags": [
+      "web-dev",
+      "tutorial",
+      "beginner"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Building a Discord Bot with Python",
+    "date": "2025-04-10",
+    "author": "Kurumi",
+    "excerpt": "Learn how to create your own Discord bot using Python and discord.py library. Step-by-step tutorial from setup to deployment.",
+    "tags": [
+      "python",
+      "discord",
+      "tutorial"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "My Favorite VS Code Extensions for 2025",
+    "date": "2025-04-05",
+    "author": "Kurumi",
+    "excerpt": "Discover the essential VS Code extensions that supercharge my development workflow. Boost productivity with these hand-picked tools.",
+    "tags": [
+      "vscode",
+      "productivity",
+      "tools"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Understanding Modern CSS: Flexbox and Grid",
+    "date": "2025-03-28",
+    "author": "Kurumi",
+    "excerpt": "A deep dive into modern CSS layout techniques that every developer should master. Flexbox and Grid explained with practical examples.",
+    "tags": [
+      "css",
+      "web-dev",
+      "tutorial"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Exploring the World of Static Site Generators",
+    "date": "2025-03-20",
+    "author": "Kurumi",
+    "excerpt": "Why I love static site generators and how they can benefit your next project. Discover SSGs like Eleventy, Astro, and Hugo.",
+    "tags": [
+      "static-site",
+      "web-dev",
+      "productivity"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Introduction to JavaScript Async/Await",
+    "date": "2025-03-15",
+    "author": "Kurumi",
+    "excerpt": "Master asynchronous JavaScript programming with async/await syntax. Learn how to write clean, readable async code.",
+    "tags": [
+      "javascript",
+      "tutorial",
+      "async"
+    ]
+  }
+]

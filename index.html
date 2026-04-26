@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurumi's Personal Space</title>
+    <meta name="description" content="Welcome to Kurumi's personal website - a space for tech, creativity, and sharing">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Kurumi</div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/wallpapers.html">Wallpapers</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Hi, I'm Kurumi</h1>
+            <p class="tagline">Code, Creativity, and Curiosity</p>
+            <p class="introduction">
+                Welcome to my personal space! I'm a developer and tech enthusiast who loves exploring new technologies,
+                building cool projects, and sharing my knowledge with the community. Here you'll find my blog posts,
+                wallpapers collection, and maybe a few surprises along the way.
+            </p>
+            <a href="#" class="discord-btn" onclick="showDiscordInfo(); return false;">
+                🤖 Add KurumiBot on Discord
+            </a>
+        </section>
+
+        <!-- Personal Info Section -->
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <p>
+                    I'm passionate about software development, anime, gaming, and digital art. My journey in tech started
+                    with simple scripts and evolved into building complex systems. I believe in continuous learning and
+                    sharing knowledge with others.
+                </p>
+                <p>
+                    When I'm not coding, you'll find me exploring new games, collecting wallpapers, or contributing to
+                    open-source projects. Discord is one of my favorite platforms to connect with the community, and
+                    I've built a bot to make server management more fun and efficient.
+                </p>
+            </div>
+        </section>
+
+        <!-- Mottos Section -->
+        <section id="mottos">
+            <h2 class="section-title">My Mottos</h2>
+            <div class="mottos">
+                <div class="motto-card fade-in">
+                    <blockquote>
+                        "Code is like humor. When you have to explain it, it's bad."
+                    </blockquote>
+                    <cite>— Cory House</cite>
+                </div>
+                <div class="motto-card fade-in">
+                    <blockquote>
+                        "Simplicity is the ultimate sophistication."
+                    </blockquote>
+                    <cite>— Leonardo da Vinci</cite>
+                </div>
+                <div class="motto-card fade-in">
+                    <blockquote>
+                        "The best way to predict the future is to create it."
+                    </blockquote>
+                    <cite>— Peter Drucker</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Wallpapers Preview -->
+        <section id="featured-wallpapers">
+            <h2 class="section-title">Featured Wallpapers</h2>
+            <p class="text-center" style="margin-bottom: 2rem;">
+                Check out my collection of high-quality wallpapers from Steam Workshop
+            </p>
+            <div class="wallpaper-grid" id="wallpaperPreview">
+                <!-- Will be populated by JavaScript -->
+            </div>
+            <p class="text-center mt-2">
+                <a href="/wallpapers.html" class="discord-btn" style="background: var(--primary-color);">
+                    View All Wallpapers
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kurumi. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://github.com/" title="GitHub">GitHub</a></li>
+                <li><a href="https://discord.com/" title="Discord">Discord</a></li>
+                <li><a href="https://steamcommunity.com/" title="Steam">Steam</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
